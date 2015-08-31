@@ -1,0 +1,47 @@
+<PatternsFile>
+
+
+		
+	
+	<Type name="4">
+	<Pattern bullet="lazor" velocity="-12" acceleration="1" angle="000" max_velocity="15" animation_velocity="5" offset_x="050" offset_y="-32" startup="0" cooldown="8"/>
+	</Type>
+	
+	<Type name="2">
+
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="000" animation_velocity="5" offset_x="050" offset_y="-32" startup="0" cooldown="8"/>
+	
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="010" animation_velocity="5" offset_x="050" offset_y="-16" startup="2" cooldown="8"/>	
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="025" animation_velocity="5" offset_x="050" offset_y="000" startup="4" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="030" animation_velocity="5" offset_x="050" offset_y="016" startup="6" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="045" animation_velocity="5" offset_x="050" offset_y="032" startup="8" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="-45" animation_velocity="1" offset_x="050" offset_y="-32" startup="8" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="-30" animation_velocity="5" offset_x="050" offset_y="-16" startup="6" cooldown="8"/>	
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="-25" animation_velocity="5" offset_x="050" offset_y="000" startup="4" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="-10" animation_velocity="5" offset_x="050" offset_y="016" startup="2" cooldown="8"/>
+	<Pattern bullet="lazor" acceleration="1" velocity="12" angle="000" animation_velocity="5" offset_x="050" offset_y="032" startup="0" cooldown="8"/>
+	</Type>
+
+	
+	<Type name="1">
+		<Pattern bullet="machinegun" velocity="20" max_velocity="80" acceleration="1" a_frequency="2" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="80" offset_y="25" startup="1" cooldown="4" duration="9999999"/>
+		<Pattern bullet="machinegun" velocity="10" max_velocity="50" acceleration="1" a_frequency="2" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="80" offset_y="18" startup="2" cooldown="4" duration="9999999"/>
+		<Pattern bullet="lazor" velocity="0" max_velocity="99999" acceleration="10" a_frequency="1" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="120" offset_y="-17" startup="4" cooldown="22" duration="9999999"/>
+		
+	</Type>
+	
+	<Type name="3">
+		<Pattern bullet="machinegun" velocity="20" max_velocity="80" acceleration="1" a_frequency="2" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="118" offset_y="30" startup="1" cooldown="4" duration="9999999"/>
+		<Pattern bullet="machinegun" velocity="10" max_velocity="50" acceleration="1" a_frequency="2" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="110" offset_y="20" startup="2" cooldown="4" duration="9999999"/>
+		<Pattern bullet="lazor" velocity="0" max_velocity="99999" acceleration="10" a_frequency="1" angle="0" angle_change="0" stop_ac_at="999999" ac_frequency="0" animation_velocity="2" offset_x="150" offset_y="-17" startup="4" cooldown="22" duration="9999999"/>
+			<Pattern bullet="lasser" velocity="-20" acceleration="5" a_frequency="3" angle="45" animation_velocity="5" offset_x="050" offset_y="0" startup="14" cooldown="6" duration="40" />
+	<Pattern bullet="lasser" velocity="-20" acceleration="5" a_frequency="3" angle="-45" animation_velocity="5" offset_x="050" offset_y="0" startup="14" cooldown="8" duration="40" />
+	<Pattern bullet="lasser" velocity="-20" acceleration="5" a_frequency="3"angle="135" animation_velocity="5" offset_x="050" offset_y="0" startup="14" cooldown="10" duration="40" />
+	<Pattern bullet="lasser" velocity="-20" acceleration="5" a_frequency="3"angle="-135" animation_velocity="5" offset_x="050" offset_y="0" startup="14" cooldown="12" duration="40"/>
+	<Pattern bullet="r" velocity="-5" max_velocity="30" acceleration="2" a_frequency="10" angle="90" angle_change="270" stop_ac_at="60" ac_frequency="30" animation_velocity="5" offset_x="50" offset_y="00" startup="0" cooldown="10" duration="600"/>
+	</Type>
+	
+	
+	
+	<!-- END OF FILE -->
+	</PatternsFile>

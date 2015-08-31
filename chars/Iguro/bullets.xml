@@ -1,0 +1,52 @@
+<BulletsFile>
+	<Bullet name="star" damage="2">
+		<Sprite path="star1.png"/>
+		<Sprite path="star1_1.png"/>
+		<Sprite path="star1_2.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+	</Bullet>
+	<Bullet name="lasser" damage="2" >
+		<Sprite path="lasser2.png"/>
+		<Sprite path="lasser2_1.png"/>
+		<Sprite path="lasser2_2.png"/>		
+		<Sprite path="lasser2_2.png"/>
+		<Sprite path="lasser2_1.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+	</Bullet>
+	<Bullet name="cannonball" damage="2">
+		<Sprite path="cannonball1.png"/>
+		<Sprite path="cannonball2.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+	</Bullet> 
+	
+	<Bullet name="machinegun" damage="2">
+		<Sprite path="machinegun01.png"/>
+		<Sprite path="machinegun02.png"/>
+		<Sprite path="machinegun03.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+		<OnHit>
+			<Sprite path="hit1.png"/>
+			<Sprite path="hit2.png"/>
+			<Sprite path="hit3.png"/>
+			<Sprite path="hit4.png"/>
+			<Sprite path="hit5.png"/>
+		</OnHit>
+	</Bullet>
+	<Bullet name="lazor" damage="2" sound="lazor.ogg">
+		<Sprite path="lazor01.png"/>
+		<Sprite path="lazor02.png"/>
+		<Sprite path="lazor03.png"/>
+		<Hitbox x="-120" y="-10" width="240" height="20" angle="0"/>
+	</Bullet>
+	
+	<Bullet name="octopus" damage="2">
+		<Sprite path="octo_idle1.png"/>
+		<Sprite path="octo_idle2.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+	</Bullet>
+	<Bullet name="r" damage="2">
+		<Sprite path="r1.png"/>
+		<Sprite path="r2.png"/>
+		<Hitbox x="-10" y="-10" width="20" height="20" angle="0"/>
+	</Bullet>
+</BulletsFile>

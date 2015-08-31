@@ -58,25 +58,25 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       sodipodi:absref="/home/turupawn/Dropbox/Construyendo la segunda ciudad del moe/STG/RSTG v1-0/menu/startscreen.png"
+       sodipodi:absref="/home/turupawn/Chicas del espacio demo - Linux 64 bit/menu/startscreen.png"
        xlink:href="startscreen.png"
-       width="1366"
-       height="768"
-       id="image2992"
-       x="0"
-       y="0"
+       fade_in_speed="5"
        fade_in_initial="0"
-       fade_in_speed="5" />
+       y="0"
+       x="0"
+       id="image2992"
+       height="768"
+       width="1366" />
     <image
-       sodipodi:absref="/home/turupawn/Dropbox/Construyendo la segunda ciudad del moe/STG/RSTG v1-0/menu/boton1.png"
-       xlink:href="boton1.png"
-       y="26.164104"
-       x="1403.8839"
-       id="image2995"
-       height="138"
-       width="265"
-       type="button"
+       sodipodi:absref="/home/turupawn/Chicas del espacio demo - Linux 64 bit/menu/button1.png"
+       xlink:href="button1.png"
+       load_menu="selection_menu.svg"
        action="load"
-       load_menu="selection_menu.svg" />
+       type="button"
+       width="265"
+       height="138"
+       id="image2995"
+       x="1403.8839"
+       y="26.164104" />
   </g>
 </svg>

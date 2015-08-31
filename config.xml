@@ -6,12 +6,10 @@
 	<Font red="0" green="0" blue="255" size="80"/>
 	<Chars>
 		<char name="Iguro"/>
-		<char name="Rectangle"/>
-		<char name="Diamond"/>
-		<char name="Triangle"/>
 	</Chars>
 	<Stages>
-		<stage name="FeministKillBot"/>
+		<stage name="FeministKillBot_normal"/>
+		<stage name="FeministKillBot_hard"/>
 		<stage name="City"/>
 		<stage name="StarField"/>
 	</Stages>

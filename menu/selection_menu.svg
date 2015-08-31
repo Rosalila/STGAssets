@@ -58,13 +58,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       sodipodi:absref="/home/turupawn/Desktop/RSTG v1-0 (copy)/menu/fondo.png"
-       xlink:href="fondo.png"
-       width="1366"
-       height="768"
-       id="image2992"
+       sodipodi:absref="/home/turupawn/Chicas del espacio demo - Linux 64 bit/menu/selection_bg.png"
+       xlink:href="selection_bg.png"
+       y="0"
        x="0"
-       y="0" />
+       id="image2992"
+       height="768"
+       width="1366" />
     <rect
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect2983"

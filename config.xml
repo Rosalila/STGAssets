@@ -8,6 +8,7 @@
 		<char name="Iguro"/>
 	</Chars>
 	<Stages>
+		<stage name="City2"/>
 		<stage name="FeministKillBot_normal"/>
 		<stage name="FeministKillBot_hard"/>
 		<stage name="City"/>

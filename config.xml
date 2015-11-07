@@ -5,14 +5,14 @@
 	<Fullscreen enabled="no"/>
 	<Font red="0" green="0" blue="255" size="80"/>
 	<Chars>
+		<char name="Square"/>
 		<char name="Iguro"/>
 	</Chars>
 	<Stages>
-		<stage name="City2"/>
-		<stage name="FeministKillBot_normal"/>
-		<stage name="FeministKillBot_hard"/>
 		<stage name="City"/>
 		<stage name="StarField"/>
+		<stage name="FeministKillBot_normal"/>
+		<stage name="FeministKillBot_hard"/>
 	</Stages>
 	<YouLose x="500" y="200" animation_velocity="5">
 		<sprite path="misc/you lose/1.png"/>
